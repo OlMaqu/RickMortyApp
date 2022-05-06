@@ -5,7 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-internal interface RickAndMortyApiService {
+interface RickAndMortyApiService {
 
     @GET("character")
     suspend fun getAllCharactersList(
